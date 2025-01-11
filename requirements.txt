@@ -1,0 +1,6 @@
+llama-index
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+google-generativeai
+matplotlib
+python-dotenv==1.0.0 
