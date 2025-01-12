@@ -76,7 +76,11 @@ if prompt := st.chat_input("Ask a question related to the uploaded documents"):
 
     # Generate response from the agent
     if uploaded_files:
-        response = agent.query(prompt)
+        # Include chat history in the query
+        chat_history = "\n".join([f"{msg['role']}: {msg['content']}" for msg in st.session_state.messages])
+        full_prompt = f"{chat_history}\nUser: {prompt}\nAssistant:"
+        
+        response = agent.query(full_prompt)
         st.session_state.messages.append({"role": "assistant", "content": str(response)})
         st.chat_message("assistant").write(str(response))
     else:
