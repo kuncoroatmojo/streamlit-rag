@@ -15,11 +15,9 @@ You can try the Expert Assistant live at [https://expertassistant.streamlit.app/
 
 ## Screenshots
 
-### Document Upload
-![Document Upload](images/document_upload.png)
-
-### Interactive Chat
-![Interactive Chat](images/interactive_chat.png)
+![Screenshot1](images/screenshot1.png)
+![Screenshot2](images/screenshot2.png)
+![Screenshot3](images/screenshot3.png)
 
 ## Installation
 

@@ -1,0 +1,26 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Streamlit cache and config
+.streamlit/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/ 
