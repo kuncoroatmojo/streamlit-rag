@@ -2,6 +2,10 @@
 
 The Expert Assistant is a Streamlit application designed to interact with users by answering queries related to uploaded documents. It leverages the capabilities of the `llama_index` library and the `Gemini` language model to provide contextually relevant responses.
 
+## Try It Out
+
+You can try the Expert Assistant live at [https://expertassistant.streamlit.app/](https://expertassistant.streamlit.app/).
+
 ## Features
 
 - **Document Upload**: Users can upload multiple documents in PDF, TXT, or DOCX formats.
