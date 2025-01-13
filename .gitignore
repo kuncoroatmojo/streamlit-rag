@@ -13,6 +13,9 @@ Thumbs.db
 # Ignore log files
 *.log
 
+# Ignore .env file
+.env
+
 # Ignore Streamlit cache and config
 .streamlit/
 
